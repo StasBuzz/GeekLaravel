@@ -1,3 +1,7 @@
+@extends('layouts/main')
+
+@section('content')
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,3 +14,5 @@
     <h1>О Нас:</h1>    
 </body>
 </html>
+
+@endsection 
