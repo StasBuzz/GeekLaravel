@@ -34,6 +34,7 @@ Route::get('/about', [AboutController::class, 'about']);
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function() {
 
+    Route::view('/', 'admin.index')->name('index');
     Route::resource('/categories', AdminCategoryController::class);
     Route::resource('/news', AdminNewsController::class);
 });

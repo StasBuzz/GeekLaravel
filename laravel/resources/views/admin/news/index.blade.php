@@ -12,4 +12,7 @@
 @endsection
 
 @section('content')
+  <x-alert type="success" message="Новость добавлена!"></x-alert>
+  <x-alert type="warning" message="Предупреждение!"></x-alert>
+  <x-alert type="danger" message="Критическая ошибка."></x-alert>
 @endsection 

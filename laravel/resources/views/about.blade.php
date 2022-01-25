@@ -11,7 +11,8 @@
     <title>About</title>
 </head>
 <body>
-    <h1>О Нас:</h1>    
+    <h1>О Нас:</h1> 
+    @include('inc.about')   
 </body>
 </html>
 
