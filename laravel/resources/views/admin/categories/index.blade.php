@@ -1,5 +1,7 @@
 @extends('layouts/admin')
 
+@section('title') Список категорий @endsection
+
 @section('header')
     <h1 class="h2">Список категорий</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
